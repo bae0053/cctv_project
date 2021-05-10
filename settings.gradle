@@ -1,0 +1,2 @@
+rootProject.name='CCTV_Tmap'
+include ':app', ':libraries:test-common', ':libraries:kakaotalk', ':applications:kakao-open-android-navi-sample', ':libraries:friends', ':libraries:push', ':libraries:network', ':libraries:kakaostory', ':applications:kakao-open-android-sdk-sample', ':libraries:kakaolink', ':libraries:message-template', ':applications:kakao-open-android-link-sample', ':libraries:plusfriend', ':libraries:usermgmt', ':libraries:kakaonavi', ':libraries:auth', ':libraries:common', ':libraries:util'

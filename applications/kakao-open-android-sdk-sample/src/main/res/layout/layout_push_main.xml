@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color5"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/view_sample_title"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:id="@+id/registger_button"
+                style="@style/iconText"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:drawableLeft="@drawable/icon_push_01"
+                android:onClick="onClick"
+                android:text="@string/push_register" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color4" />
+
+            <CheckedTextView
+                android:id="@+id/unregistger_button"
+                style="@style/iconText"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:drawableLeft="@drawable/icon_push_02"
+                android:onClick="onClick"
+                android:text="@string/push_unregister" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color4" />
+
+            <CheckedTextView
+                android:id="@+id/send_button"
+                style="@style/iconText"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:drawableLeft="@drawable/icon_push_03"
+                android:onClick="onClick"
+                android:text="@string/push_send" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color4" />
+
+            <CheckedTextView
+                android:id="@+id/tokens_button"
+                style="@style/iconText"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:drawableLeft="@drawable/icon_push_04"
+                android:onClick="onClick"
+                android:text="@string/push_tokens" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/color4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/logout_button"
+                    style="@style/button"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_03"
+                    android:onClick="onClick"
+                    android:text="@string/com_kakao_logout_button" />
+
+                <Button
+                    android:id="@+id/unlink_button"
+                    style="@style/button"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_button_02"
+                    android:onClick="onClick"
+                    android:text="@string/com_kakao_unlink_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

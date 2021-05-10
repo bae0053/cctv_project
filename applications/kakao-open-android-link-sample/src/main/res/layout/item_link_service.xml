@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kakao.sdk.link.sample.common.widget.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/service_icon"
+        android:layout_width="79dp"
+        android:layout_height="79dp" />
+
+    <TextView
+        android:id="@+id/service_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/color7"
+        android:textSize="@dimen/menu_text_size" />
+</com.kakao.sdk.link.sample.common.widget.SquareLinearLayout>

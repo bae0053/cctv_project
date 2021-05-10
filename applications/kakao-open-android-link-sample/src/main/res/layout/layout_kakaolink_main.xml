@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.kakao.sdk.link.sample.common.widget.KakaoDialogSpinner xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.link.sample"
+            android:id="@+id/text"
+            style="@style/spinner"
+            kakao:kakao_entries="@array/text_types"
+            kakao:kakao_icon="@drawable/icon_link_01"
+            kakao:kakao_prompt="@string/text_type" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color4" />
+
+        <com.kakao.sdk.link.sample.common.widget.KakaoDialogSpinner xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.link.sample"
+            android:id="@+id/image"
+            style="@style/spinner"
+            kakao:kakao_entries="@array/image_types"
+            kakao:kakao_icon="@drawable/icon_link_02"
+            kakao:kakao_prompt="@string/image_type" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color4" />
+
+        <com.kakao.sdk.link.sample.common.widget.KakaoDialogSpinner xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.link.sample"
+            android:id="@+id/link"
+            style="@style/spinner"
+            kakao:kakao_entries="@array/link_types"
+            kakao:kakao_icon="@drawable/icon_link_03"
+            kakao:kakao_prompt="@string/link_type" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color4" />
+
+        <com.kakao.sdk.link.sample.common.widget.KakaoDialogSpinner xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.link.sample"
+            android:id="@+id/button"
+            style="@style/spinner"
+            kakao:kakao_entries="@array/button_types"
+            kakao:kakao_icon="@drawable/icon_link_04"
+            kakao:kakao_prompt="@string/button_type" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color4" />
+
+        <LinearLayout
+            android:id="@+id/forwardable_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_item_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/menu_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/icon_link_05" />
+
+            <TextView
+                android:id="@+id/menu_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="@string/kakaolink_title_forwardable"
+                android:textColor="@color/color3"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/forwardable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:button="@drawable/selector_check_box"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/color4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <Button
+                android:id="@+id/send"
+                style="@style/button"
+                android:layout_weight="1"
+                android:background="@drawable/btn_b"
+                android:text="@string/send_button" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="fill_parent"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/clear"
+                style="@style/button"
+                android:layout_weight="1"
+                android:background="@drawable/btn_c"
+                android:text="@string/clear_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

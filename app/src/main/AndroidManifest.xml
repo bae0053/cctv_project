@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cctv_tmap"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="kakaolink"
+                    android:scheme="kakao66cf3241bde5aeaa6f9e1dde2612a51a" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="66cf3241bde5aeaa6f9e1dde2612a51a" />
+
+        <activity android:name=".AutoCompleteParse" />
+        <activity android:name=".CCTV.CCTV_infomation" />
+        <activity android:name=".Bookmark.BookmarkActivity" />
+        <activity android:name=".History.HistoryActivity" />
+        <activity android:name=".Search_map.Search_map" />
+        <activity android:name=".Help.HelpActivity" />
+
+    </application>
+
+</manifest>

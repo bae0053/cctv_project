@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "845431271487",
+    "firebase_url": "https://cctvmap-a65d1.firebaseio.com",
+    "project_id": "cctvmap-a65d1",
+    "storage_bucket": "cctvmap-a65d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845431271487:android:0bc9da4c3ee7accc07488a",
+        "android_client_info": {
+          "package_name": "com.example.cctv_tmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrCpP0zP2HaBG_Hglx700fNSv25XE7BuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845431271487:android:e35ae39964821ed007488a",
+        "android_client_info": {
+          "package_name": "com.example.cctvmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrCpP0zP2HaBG_Hglx700fNSv25XE7BuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845431271487:android:e95bfebf57b9a2c807488a",
+        "android_client_info": {
+          "package_name": "com.example.tmapcctvproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845431271487-otvj8h6jcjv68952i0mvjj9ksv6d7r3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tmapcctvproject",
+            "certificate_hash": "1bb4e4390321db92857cec2dd58fa88cd1f4ab51"
+          }
+        },
+        {
+          "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrCpP0zP2HaBG_Hglx700fNSv25XE7BuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845431271487-rpn7ba1fn1msis76u5tqbruh45i83q09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
